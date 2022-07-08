@@ -29,11 +29,7 @@ void main() {
           Text('Address: Kathmandu, nepal'),
           SizedBox(height: 100),
           Text('Develop By Shyam Baral'),
-          Text('Develop By Shyam Baral'),
-          Text('Develop By Shyam Baral'),
-          Text('Develop By Shyam Baral'),
-          
-        
+         
         ],
       ),
     ),

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class homescreen extends StatelessWidget {
-  const homescreen({Key? key}) : super(key: key);
-
+   
+  final String username;
+  homescreen(this.username);
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -59,7 +59,7 @@ class _loginscreenState extends State<loginscreen> {
     padding: EdgeInsets.all(20),
     onPressed: (){
       if(username == "syam" && password =="shyam"){
-       Navigator.push(context, MaterialPageRoute(builder: (context)=>Homescreen(username))); 
+       Navigator.push(context, MaterialPageRoute(builder: (context)=>homescreen(username))); 
         print("Login is successful");
       }else{
         print("login failed");
